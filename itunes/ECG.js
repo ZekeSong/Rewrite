@@ -22,9 +22,9 @@ var objc = JSON.parse($response.body);
   "environment" : "Production",
   "receipt" : {
     "receipt_type" : "Production",
-    "app_item_id" : 6446446808,
+    "app_item_id" : 1567047859,
     "receipt_creation_date" : "2023-09-16 17:14:12 Etc/GMT",
-    "bundle_id" : "com.lotuz.PianoFantasy",
+    "bundle_id" : "com.wms.hrv.pro",
     "in_app" : [
       {
         "quantity" : "1",
