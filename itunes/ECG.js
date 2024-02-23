@@ -24,7 +24,7 @@ var objc = JSON.parse($response.body);
     "receipt_type" : "Production",
     "app_item_id" : 1567047859,
     "receipt_creation_date" : "2023-09-16 17:14:12 Etc/GMT",
-    "bundle_id" : "com.wms.hrv.pro",
+    "bundle_id" : "www.ecgpro.app",
     "in_app" : [
       {
         "quantity" : "1",
@@ -47,7 +47,7 @@ var objc = JSON.parse($response.body);
       }
     ],
     "download_id" : 502787298214239200,
-    "adam_id" : 6446446808,
+    "adam_id" : 1567047859,
     "receipt_creation_date_pst" : "2023-09-16 10:14:12 America/Los_Angeles",
     "request_date" : "2023-09-16 17:14:14 Etc/GMT",
     "request_date_pst" : "2023-09-16 10:14:14 America/Los_Angeles",
@@ -88,7 +88,7 @@ var objc = JSON.parse($response.body);
     {
       "product_id" : "com.wms.hrv.pro",
       "original_transaction_id" : "190001723691281",
-      "auto_renew_product_id" : "com.pdfreaderpro.free.member.all_access_pack_permanent_license.001",
+      "auto_renew_product_id" : "com.wms.hrv.pro",
       "auto_renew_status" : "1"
     }
   ]
