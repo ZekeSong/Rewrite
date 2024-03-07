@@ -1,16 +1,23 @@
 /*
+视频下载
+ua：没看
+id：com.xiaoqi.videoget.forever
 
-CapyMood 1.1.0
 
 [rewrite_local]
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/itunes/CapyMood.js
+
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/itunes/spxz.js
 
 [mitm] 
 
 hostname = buy.itunes.apple.com
 
-*/
+**/
+
+
+
+
 
 var objc = JSON.parse($response.body);
 
@@ -18,7 +25,7 @@ var objc = JSON.parse($response.body);
   "status" : 0,
   "pending_renewal_info" : [
     {
-      "product_id" : "com.paha.CapyMood.forever",
+      "product_id" : "com.xiaoqi.videoget.forever",
       "original_transaction_id" : "570001459824088",
       "auto_renew_product_id" : "com.xiaoqi.videoget.forever",
       "auto_renew_status" : "0"
@@ -41,7 +48,7 @@ var objc = JSON.parse($response.body);
         "is_trial_period" : "true",
         "original_transaction_id" : "570001459824088",
         "purchase_date" : "2024-02-25 08:59:28 Etc\/GMT",
-        "product_id" : "com.paha.CapyMood.forever",
+        "product_id" : "com.xiaoqi.videoget.forever",
         "original_purchase_date_pst" : "2024-02-25 00:59:30 America\/Los_Angeles",
         "in_app_ownership_type" : "PURCHASED",
         "original_purchase_date_ms" : "1708851570000",
@@ -75,7 +82,7 @@ var objc = JSON.parse($response.body);
       "is_trial_period" : "true",
       "original_transaction_id" : "570001459824088",
       "purchase_date" : "2024-02-25 08:59:28 Etc\/GMT",
-      "product_id" : "com.paha.CapyMood.forever",
+      "product_id" : "com.xiaoqi.videoget.forever",
       "original_purchase_date_pst" : "2024-02-25 00:59:30 America\/Los_Angeles",
       "in_app_ownership_type" : "PURCHASED",
       "subscription_group_identifier" : "21422631",
